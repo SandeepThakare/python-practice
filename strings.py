@@ -1,4 +1,4 @@
-a= "hello" #assign string to a
+a= "hello world" #assign string to a
 
 print("value of a is ", a) #print string
 
@@ -24,6 +24,16 @@ print('\nWe can also use negative indexing - work as index-1 in this')
 print('Print string except last one a[:-1] ==> ', a[:-1])
 
 print('Print string by negative indexing ==> ', a[-3:-1])
+
+print('\n-----String Properties-----')
+
+print('print string 2 times - a*2 ==> ', a*2)
+
+print('split words from given string - a.split() ==> ', a.split())
+
+print("#Split by a specific element (doesn't include the element that was split on)")
+
+print("Split word by latter 'W' - a.split('w')", a.split('w'))
 
 
 
